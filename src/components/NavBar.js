@@ -1,9 +1,9 @@
-import { Nanum_Gothic_Coding } from "next/font/google";
 import Link from "next/link";
 import React from "react";
 import Logo from './Logo';
 import { useRouter } from "next/router";
-
+import { LinkedInIcon, GithubIcon, GmailIcon } from "./Icons";
+import { motion } from "framer-motion";
 
 const CustomLink = ({ href, title, className = "" }) => {
     const router = useRouter();
@@ -13,7 +13,7 @@ const CustomLink = ({ href, title, className = "" }) => {
             <span className={`h-[1px] inline-block bg-dark 
             absolute left-0 bottom-0.5
             group-hover:w-full transition-[width] ease duration-300
-            ${router.asPath === href ? "w-full" : "w-0"}`}            
+            ${router.asPath === href ? "w-full" : "w-0"}`}
             >&nbsp;
             </span>
         </Link>
@@ -24,15 +24,32 @@ const NavBar = () => {
         <header
             className='w-full px-32 py-8 font-medium flex items-center justify-between'>
             <nav>
-                <CustomLink href='/' title="Home" className="mr-4"/>
-                <CustomLink href='/about' title="About" className="mx-4"/>
+                <CustomLink href='/' title="Home" className="mr-4" />
+                <CustomLink href='/about' title="About" className="mx-4" />
                 <CustomLink href='/projects' title="Projects" className="mx-4" />
-                <CustomLink href='/blog' title="Blog" className="ml-4"/>
+                <CustomLink href='/blog' title="Blog" className="ml-4" />
             </nav>
 
-            <nav>
-                <Link href='/' target={"_blank"}>L</Link>
-                <Link href='/' target={"_blank"}>G</Link>
+            <nav className="flex item-center justify-center flex-wrap">
+                <motion.a href='https://es.linkedin.com/in/ianrierasmolinska' target={"_blank"}
+                    whileHover={{ y: -2 }}
+                    whileTap={{ scale: 0.9 }}
+                    className="w-6 mr-3">
+                    <LinkedInIcon />
+
+                </motion.a>
+                <motion.a href='https://github.com/IanRiera/IanRiera' target={"_blank"}
+                    whileHover={{ y: -2 }}
+                    whileTap={{ scale: 0.9 }}
+                    className="w-6 mx-3">
+                    <GithubIcon />
+                </motion.a>
+                <motion.a href='mailto:ian.riera.smolinska@gmail.com' target={"_blank"}
+                    whileHover={{ y: -2 }}
+                    whileTap={{ scale: 0.9 }}
+                    className="w-6 ml-3">
+                    <GmailIcon />
+                </motion.a>
             </nav>
             <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
                 <Logo />
