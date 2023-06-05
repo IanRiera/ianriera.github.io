@@ -3,7 +3,7 @@ import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
 
 
-const Details = ({ type, time, place, university, universityLink info }) => {
+const Details = ({ type, time, place, university, universityLink, info }) => {
     const ref = useRef(null);
     return <li
         ref={ref}
