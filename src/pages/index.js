@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import ArrowLink from "@/components/Icons"
 import Layout from '@/components/Layout'
 import Image from 'next/image'
-import profilePic from "../../public/images/profile/ian_digital_artwork_flipped.png"
+import profilePic from "../../public/images/profile/ian_mult_hats.png"
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 
@@ -24,7 +24,7 @@ export default function Home() {
               <Image src={profilePic} alt="IanRiera" className='w-full h-auto' />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center">
-              <AnimatedText text="Turning Vision Into Reality With Code And Design."
+              <AnimatedText text="A Computer Vision Engineer With Multiple Hats."
                 className='!text-6xl !text-left' />
               <p className='my-4 text-base font-medium'>
                 As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
