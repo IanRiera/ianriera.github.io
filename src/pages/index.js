@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import ArrowLink from "@/components/Icons"
+import { ArrowLink } from "@/components/Icons"
 import Layout from '@/components/Layout'
 import Image from 'next/image'
 import profilePic from "../../public/images/profile/ian_mult_hats.png"
@@ -36,7 +36,7 @@ export default function Home() {
                 hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark
                 '
                   download={true}
-                >Resume
+                >Resume <ArrowLink className='ml-2' />
                 </Link>
                 <Link href="mailto:ian.riera.smolinska@gmail.com" target={"_blank"}
                 className='ml-4 text-lg font-medium capitalize text-dark underline'
