@@ -376,7 +376,7 @@ export const ArrowLink = ({className, ...rest}) => (
     width="1em"
     height="1em"
     viewBox="0 0 24 24"
-    className={`w-full h-auto${className}`}
+    className={`w-full h-auto ${className}`}
     {...rest}
   >
     <path fill="rgba(255, 255, 255, 0)" d="M0 0h24v24H0z" />
