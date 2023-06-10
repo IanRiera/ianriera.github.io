@@ -47,7 +47,8 @@ const AnimatedColorBar = ({ title, width, color, className = "" }) => {
 const Skills = () => {
     return (
         <div>
-            <h2 className="font-bold text-8xl mt-64 w-full text-center">Skills</h2>
+            <h2 className="font-bold text-8xl mt-64 w-full text-center
+            dark:text-light">Skills</h2>
             <AnimatedColorBar title="Animated" width={90} color="red" />
             <AnimatedColorBar title="dark" width={45} color="gray" />
             <AnimatedColorBar title="blue" width={45} color="blue" />
