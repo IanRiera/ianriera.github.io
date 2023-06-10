@@ -23,7 +23,11 @@ export default function Home() {
           <div className="flex items-center justify-between w-full">
             <div className="w-1/2">
               <Image src={profilePic} alt="IanRiera" className='w-full
-              h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30' />
+              h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30'
+              priority
+              sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              50vw" />
             </div>
             <div className="w-1/2 flex flex-col items-center self-center">
               <AnimatedText text="A Computer Vision Engineer With Multiple Hats."
