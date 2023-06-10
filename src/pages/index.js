@@ -19,11 +19,13 @@ export default function Home() {
       </Head>
       <main className='flex items-center text-dark w-full min-h-screen
       dark:text-light'>
-        <Layout className="pt-0">
-          <div className="flex items-center justify-between w-full">
+        <Layout className="pt-0 md:pt-16 sm:pt-8">
+          <div className="flex items-center justify-between w-full lg:flex-col">
             <div className="w-1/2">
               <Image src={profilePic} alt="IanRiera" className='w-full
-              h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30'
+              h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300
+              ease-in-out hover:shadow-lg hover:shadow-black/30
+              lg:hidden md:inline-block md:w-full'
               priority
               sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
@@ -31,7 +33,8 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center">
               <AnimatedText text="A Computer Vision Engineer With Multiple Hats."
-                className='!text-6xl !text-left' />
+                className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl
+                md:!text-5xl sm:!text-3xl' />
               <p className='my-4 text-base font-medium'>
                 As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
                 Explore my latest projects and articles, showcasing my expertise in React.js and web development.
