@@ -5,10 +5,12 @@ import Link from "next/link";
 const Footer = () => {
     return (
         <footer className="w-full border-t-2 border-solid border-dark
-        font-medium text-lg dark:text-light dark:border-light">
-            <Layout className="py-8 flex items-center justify-between">
+        font-medium text-lg dark:text-light dark:border-light
+        sm:text-base">
+            <Layout className="py-8 flex items-center justify-between
+            lg:felx-col lg:py-6">
                 <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
-                <div className="flex items-right">
+                <div className="flex items-right lg:py-2">
                 Based on the amazing tutorial by&nbsp;<Link href="https://devdreaming.com"
                 className="underline undirle-offset-2"
                 >CodeBucks</Link>
