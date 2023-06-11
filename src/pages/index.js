@@ -25,7 +25,7 @@ export default function Home() {
           <div className="flex items-center justify-between w-full lg:flex-col">
             <div className="w-1/2 md:w-full">
               <Image src={profilePic} alt="IanRiera" className='w-full
-              h-auto max-w-sm rounded-lg shadow-none transition-shadow duration-300
+              h-auto max-w-lg rounded-lg shadow-none transition-shadow duration-300
               ease-in-out hover:shadow-lg hover:shadow-black/30
               lg:hidden md:inline-block md:w-full'
               priority
@@ -39,8 +39,10 @@ export default function Home() {
                 className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl
                 md:!text-5xl sm:!text-3xl' />
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-                As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
-                Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+              I am a versatile Computer Vision Engineer with a passion for exploring the endless possibilities of artificial intelligence.
+              Equipped with a diverse range of knowledge and skills, I thrive on tackling complex challenges across various domains.
+              From developing advanced algorithms to creating interactive visual applications, I embrace the multidimensional nature of computer vision.
+              Join me on this exciting journey as we dive into the limitless potential of cutting-edge technologies and their real-world applications.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="/dummy.pdf" target={"_blank"}
