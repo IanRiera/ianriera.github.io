@@ -11,30 +11,6 @@ import Education from "@/components/Education";
 import TransitionEffect from "@/components/TransitionEffect";
 
 
-const AnimatedNumbers = ({ value }) => {
-    const ref = useRef(null);
-    const motionValue = useMotionValue(0);
-    const springValue = useSpring(motionValue, { duration: 3000 });
-    const isInView = useInView(ref, { once: true });
-
-    useEffect(() => {
-        if (isInView) {
-            motionValue.set(value);
-        }
-    }, [isInView, value, motionValue]);
-
-    useEffect(() => {
-        springValue.on("change", (latest) => {
-            if (ref.current && latest.toFixed(0) <= value) {
-                ref.current.textContent = latest.toFixed(0);
-            }
-        })
-    }, [springValue, value]);
-
-    return <span ref={ref}></span>;
-};
-
-
 const about = () => {
     return (
         <>
@@ -43,7 +19,7 @@ const about = () => {
                 <meta name="description" content="Ian Riera's personal website" />
             </Head>
             <TransitionEffect />
-            <main className="flex w-full flex-col items-center justify-center dark:text-light
+            <main className="pt-12 flex w-full flex-col items-center justify-center dark:text-light
             ">
                 <Layout className="pt-16">
                     <AnimatedText text="Passion Fuels Purpose! " className="mb-16
