@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import article1 from "../../public/images/articles/create loading screen in react js.jpg";
 import { motion, useMotionValue } from "framer-motion";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
