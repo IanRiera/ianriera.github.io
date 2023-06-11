@@ -31,9 +31,11 @@ const AnimatedColorBar = ({ title, width, color, className = "" }) => {
             >
                 {title}
             </div>
-            <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+            <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700
+            ">
                 <motion.div
-                    className={`bg-${color}-600 h-2.5 rounded-full ${className}`}
+                    className={`w-full bg-${color}-600 h-2.5 rounded-full z-30
+                    ${className}`}
                     style={{ width: isVisible ? `${width}%` : 0 }}
                     initial={{ width: 0 }}
                     animate={{ width: isVisible ? `${width}%` : 0 }}
@@ -48,7 +50,7 @@ const Skills = () => {
     return (
         <div>
             <h2 className="font-bold text-8xl mt-64 w-full text-center
-            dark:text-light">Skills</h2>
+            dark:text-light md:text-6xl md:mt-32">Skills</h2>
             <AnimatedColorBar title="Animated" width={90} color="red" />
             <AnimatedColorBar title="dark" width={45} color="gray" />
             <AnimatedColorBar title="blue" width={45} color="blue" />
