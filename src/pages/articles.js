@@ -101,6 +101,7 @@ const articles = () => {
                 <title>About | Ian Riera</title>
                 <meta name="description" content="Ian Riera's personal website" />
             </Head>
+            <TransitionEffect />
             <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden
             dark:text-light">
                 <Layout className='pt-16'>
