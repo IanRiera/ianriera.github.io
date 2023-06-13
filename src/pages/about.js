@@ -32,10 +32,6 @@ const about = () => {
                             <p className="font-medium">
                                 Hello world, I'm Ian. I am a Telecommunications engineer specialized in Computer Vision.  
                             </p>
-                            <p className="my-4 font-medium">My work experience in Computer Vision began at <a className="underline hover:text-blue-800" href="https://beamagine.com/">Beamagine S.L.</a>, after completing there my <a className="underline hover:text-blue-800" href="https://mcv.uab.cat/">Master</a> Thesis as an internship in collaboration with the <a className="underline hover:text-blue-800" href="https://imatge.upc.edu/web/">Image Processing Group</a> from UPC. The thesis focused on pedestrian detection on point clouds obtained with the company's Lidar.
-                             Prior to the Computer Vision master, I completed a bachelor degree in Telecommunication Engineering at <a className="underline hover:text-blue-800" href="https://telecos.upc.edu/en/study-programs/degrees/bachelors-degree-in-telecommunications-technologies-and-services-engineering">UPC</a> and
-                             the corresponding master at <a className="underline hover:text-blue-800" href="http://beslasalle.salleurl.edu/en/master-universitario-ingenieria-telecomunicacion">La Salle - Universitat Ramon Llull</a>. These comprehensive educational experiences have provided me with a solid
-                            foundation in engineering principles.</p>
                             <p className="my-4 font-medium">
                                 I am currently working at <a href="https://coatingai.com/" className="underline hover:text-blue-800">CoatingAI AG</a>, a startup that aims to leverage the power of artificial intelligence
                                 to automate coating processes and boost efficiency.
@@ -66,9 +62,9 @@ const about = () => {
 
                         </div>
                     </div>
-                    <Skills />
                     <Experience />
                     <Education />
+                    {/* <Skills /> */}
                 </Layout>
             </main>
         </>

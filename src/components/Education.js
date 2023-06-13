@@ -53,14 +53,29 @@ const Education = () => {
                     md:w-[2px] md:left-[30px] xs:left-[20px] xs:ml-2" />
                 <ul className="w-full flex flex-col items-start justify-between ml-4" >
                     <Details
-                        type="Bachelor Of Science In Computer Science"
-                        university="Massachusetts Institute Of Technology (MIT)"
+                        type="M.Sc. In Computer Vision"
+                        university="Universitat Autònoma de Barcelona — Computer Vision Center (CVC)"
                         time="2016-2020"
-                        address="Massachusetts, USA"
+                        address="Barcelona, Spain"
                         info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
 Intelligence."
                     />
-
+                    <Details
+                        type="M.Sc. In Telecommunication Engineering"
+                        university="Massachusetts Institute Of Technology (MIT)"
+                        time="2016-2020"
+                        address="Barcelona, Spain"
+                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
+Intelligence."
+                    />
+                    <Details
+                        type="B.Sc. In Telecommunication Engineering"
+                        university="Universitat Politècnica de Catalunya (UPC)"
+                        time="2011-2017"
+                        address="Barcelona, Spain"
+                        info="Covered competences in Telecommunication Systems, 
+                        Audiovisual Systems, Telematics, and Electronics."
+                    />
                 </ul>
             </div>
         </div>

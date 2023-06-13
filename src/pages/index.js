@@ -45,7 +45,7 @@ export default function Home() {
               Join me on this exciting journey as we dive into the limitless potential of cutting-edge technologies and their real-world applications.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href="/dummy.pdf" target={"_blank"}
+                <Link href="/cv_ian_riera.pdf" target={"_blank"}
                   className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold
                 hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark
                 dark:text-dark dark:bg-light hover:dark:bg-dark
