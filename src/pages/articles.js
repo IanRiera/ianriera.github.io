@@ -4,7 +4,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import Link from "next/link";
 import Image from "next/image";
-// import article1 from "../../public/images/articles/create loading screen in react js.jpg";
+import article1 from "../../public/images/projects/museum_painting_retrieval.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -99,7 +99,7 @@ const articles = () => {
     return (
         <>
             <Head>
-                <title>About | Ian Riera</title>
+                <title>Articles | Ian Riera</title>
                 <meta name="description" content="Ian Riera's personal website" />
             </Head>
             <TransitionEffect />
@@ -110,14 +110,6 @@ const articles = () => {
                     lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
                     <ul className="grid grid-cols-2 gap-16
                     lg:gap-8 md:grid-cols-1 md:gap-y-16">
-                        <FeaturedArticle
-                            title="Build A Custom Pagination Component In Reactjs From Scratch"
-                            time="5 min read"
-                            img={article1}
-                            link="https://www.codingdeft.com/posts/reactjs-pagination-component/"
-                            summary="Learn how to build a custom pagination component in ReactJS from scratch."
-
-                        />
                         <FeaturedArticle
                             title="Build A Custom Pagination Component In Reactjs From Scratch"
                             time="5 min read"
