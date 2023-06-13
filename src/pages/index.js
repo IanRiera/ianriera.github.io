@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <Head>
         <title>Ian Riera Smolinska</title>
-        <meta name="description" content="Ian Riera's personal website" />
+        <meta name="description" content="Ian Riera personal website" />
 
       </Head>
       <TransitionEffect />
