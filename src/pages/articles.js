@@ -4,7 +4,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import Link from "next/link";
 import Image from "next/image";
-import article1 from "../../public/images/articles/create loading screen in react js.jpg";
+// import article1 from "../../public/images/articles/create loading screen in react js.jpg";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
