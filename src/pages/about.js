@@ -39,7 +39,7 @@ const about = () => {
                                 both as standalone applications and packages of the company&apos;s full software pipeline.
                             </p>
                             <p className="my-4 font-medium">
-                                Lately, I have been helping with the development of a web application for the company's current flagship product, the Flightpath.
+                                Lately, I have been helping with the development of a web application for the company&apos;s current flagship product, the Flightpath.
                             </p>
                             <p className="font-medium">
                                 Whether it is for work or for fun, I love to explore new technologies and learn new skills.
