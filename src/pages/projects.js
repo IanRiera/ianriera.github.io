@@ -5,7 +5,11 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-// import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import scene_understanding from "../../public/images/projects/scene_understanding.png";
+import scene_reconstruction from "../../public/images/projects/3D_reconstruction_urban_scenes.png";
+import multi_tracking from "../../public/images/projects/reid_gif_lite.gif";
+import image_classification from "../../public/images/projects/image_classification.png";
+import painting_retrieval from "../../public/images/projects/museum_painting_retrieval.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -47,7 +51,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
                     <Link href={link} target={"_blank"}
                         className="ml-4 rounded-lg bg-dark text-light dark:bg-light dark:text-dark p-2 px-6 text-lg 
                     font-semibold sm:px-4 sm:text-base"
-                    >Visit the project</Link>
+                    >Read More</Link>
                 </div>
             </div>
         </article>
@@ -82,7 +86,7 @@ const Project = ({ title, type, img, summary, link, github }) => {
                     <Link href={link} target={"_blank"}
                         className="underline text-lg 
                     font-semibold md:text-base"
-                    >Visit</Link>
+                    >Read More</Link>
                     <Link href={github} target={"_blank"} className="w-8 md:w-6"> <GithubIcon />{" "}</Link>
                 </div>
             </div>
@@ -100,39 +104,73 @@ const projects = () => {
             <main className="w-full mb-16 flex flex-col items-center justify-center
             dark:text-light">
                 <Layout className="w-full mb-16 flex flex-col items-center justify-center">
-                    <AnimatedText text="Imagination Trumps Knowledge!" className="mb-16
+                    <AnimatedText text="Unleash the Power of Computer Vision!" className="mb-16
                     lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
 
                     <div className="grid w-full grid-cols-12 gap-24 gap-y-32
                     xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                         <div className="col-span-12">
                             <FeaturedProject
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts."
-                                link="/"
-                                github="/"
-                                type="Featured Project"
+                                title="Video Surveillance for Road Traffic Monitoring"
+                                img={multi_tracking}
+                                summary="Traffic monitoring solution to the third track of the AI-City Challenge.
+                                The goal of this challenge is to track vehicles across multiple cameras placed in
+                                multiple intersections spread out over a city. The project first focuses in solving
+                                multi-tracking in a single camera, using faster r-cnn for object detection and the kalman filter
+                                for tracking. Then the solutions is extended to multiple cameras using siamese networks and metric learning."
+                                link="https://arxiv.org/abs/2105.04908"
+                                github="https://github.com/IanRiera/MCV-M6-Video-Traffic-Monitoring"
+                                type=""
                             />
                         </div>
                         <div className="col-span-6 sm:col-span-12">
                             <Project
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts."
-                                link="/"
-                                github="/"
-                                type="Featured Project"
+                                title="Scene Understanding for Autonomous Driving"
+                                img={scene_understanding}
+                                summary="Study of the behaviour of different configurations of
+                                RetinaNet, Faster R-CNN and Mask R-CNN, using the Detectron2
+                                framework. The evaluation is done both qualitatively and quantitatively
+                                on KITTI-MOTS, MOTSChallenge, Cityscapes and out of context datasets."
+                                link="https://arxiv.org/abs/2105.04905"
+                                github="https://github.com/IanRiera/MCV-M5-Object-Detection-and-Segmentation"
+                                type=""
                             />
                         </div>
                         <div className="col-span-6 sm:col-span-12">
                             <Project
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts."
-                                link="/"
-                                github="/"
-                                type="Featured Project"
+                                title="3D Reconstruction of Urban Scenes"
+                                img={scene_reconstruction}
+                                summary="Study of the behaviour of different configurations of RetinaNet, Faster R-CNN and Mask R-CNN,
+                                using the Detectron2 framework. The evaluation is done both qualitatively and quantitatively on
+                                KITTI-MOTS, MOTSChallenge, Cityscapes and out of context datasets."
+                                link="3D-reconstruction-urban-scenes.pdf"
+                                github="https://github.com/IanRiera/MCV-M4-3D-Vision"
+                                type=""
+                            />
+                        </div>
+                        <div className="col-span-6 sm:col-span-12">
+                            <Project
+                                title="Image Classification with Classic and Deep Learning Techniques"
+                                img={image_classification}
+                                summary="Image classifier using both classic computer vision techniques, such as Bag
+                                of Visual Words classifier using SVM and logistic regression, and deep learning
+                                techniques, such as MLPs and InceptionV3. Finally we designed our own CNN: TinyNet."
+                                link="https://arxiv.org/abs/2105.04895"
+                                github="https://github.com/IanRiera/MCV-M3-Machine-Learning-for-Computer-Vision"
+                                type=""
+                            />
+                        </div>
+                        <div className="col-span-6 sm:col-span-12">
+                            <Project
+                                title="Museum Painting Retrieval"
+                                img={painting_retrieval}
+                                summary="Query by example CBIR system for finding paintings matches in a museum
+                                database using color, texture, text and feature descriptors. The datasets used
+                                present different distortions in the images: background, noise, overlapping
+                                text boxes, color corruption and rotation."
+                                link="https://arxiv.org/abs/2105.04891"
+                                github="https://github.com/IanRiera/MCV-M1-Museum-Painting-Retrieval"
+                                type=""
                             />
                         </div>
                     </div>

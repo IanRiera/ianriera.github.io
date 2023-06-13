@@ -54,13 +54,28 @@ const Skills = () => {
         <div>
             <h2 className="font-bold text-8xl mt-64 w-full text-center
             dark:text-light md:text-6xl md:mt-32">Skills</h2>
-            <AnimatedColorBar title="dark" width={45} color="gray" className="!bg-gray-500"/>
-            <AnimatedColorBar title="blue" width={45} color="blue" className="!bg-blue-600" />
-            <AnimatedColorBar title="red" width={45} color="red" className="!bg-red-600"/>
-            <AnimatedColorBar title="green" width={45} color="green" className="!bg-green-600"/>
-            <AnimatedColorBar title="yellow" width={45} color="yellow" className="!bg-yellow-400" />
-            <AnimatedColorBar title="indigo" width={45} color="indigo" className="!bg-indigo-600"/>
-            <AnimatedColorBar title="purple" width={45} color="purple" className="!bg-purple-600"/>
+            <AnimatedColorBar title="Python" width={65} color="green" className="!bg-green-600"/>
+            <AnimatedColorBar title="C++" width={50} color="green" className="!bg-green-600" />
+            <AnimatedColorBar title="Matlab" width={45} color="green" className="!bg-green-600"/>
+            <AnimatedColorBar title="JavaScript" width={45} color="green" className="!bg-green-600"/>
+            <hr className="border-2 border-solid"></hr>
+            <AnimatedColorBar title="Git" width={60} color="blue" className="!bg-blue-600"/>
+            <AnimatedColorBar title="Linux" width={60} color="blue" className="!bg-blue-600"/>
+            <AnimatedColorBar title="ROS" width={50} color="blue" className="!bg-blue-600" />
+            <hr className="border-2 border-solid"></hr>
+            <AnimatedColorBar title="Open3D" width={65} color="indigo" className="!bg-indigo-600"/>
+            <AnimatedColorBar title="OpenCV" width={60} color="indigo" className="!bg-indigo-600"/>
+            <AnimatedColorBar title="Tensorflow" width={40} color="indigo" className="!bg-indigo-600"/>
+            <AnimatedColorBar title="Pytorch" width={35} color="indigo" className="!bg-indigo-600"/>
+            <hr className="border-2 border-solid"></hr>
+            <AnimatedColorBar title="Object Detection" width={65} color="purple" className="!bg-purple-600"/>
+            <AnimatedColorBar title="3D reconstruction" width={60} color="purple" className="!bg-purple-600"/>
+            <AnimatedColorBar title="Multi Target Tracking" width={55} color="purple" className="!bg-purple-600"/>
+            <AnimatedColorBar title="Sensor Fusion" width={50} color="purple" className="!bg-purple-600"/>
+            <hr className="border-2 border-solid"></hr>
+            <AnimatedColorBar title="Agile" width={70} color="yellow" className="!bg-yellow-400"/>
+            <AnimatedColorBar title="DevOps" width={55} color="yellow" className="!bg-yellow-400"/>
+            <hr className="border-2 border-solid"></hr>
         </div>
     );
 }

@@ -25,7 +25,7 @@ const about = () => {
                     <AnimatedText text="Exploring the Potential of AI and Computer Vision! " className="mb-16
                     lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
                     <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
-                        <div className="col-span-4 flex flex-col items-start justify-start
+                        <div className="col-span-4 flex flex-col items-start justify-stretch
                         md:order-2 md:col-span-8 leading-loose">
                             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75
                             dark:text-light/75">Biography</h2>
@@ -57,14 +57,13 @@ const about = () => {
                             <Image src={profilePic} alt="IanRiera" className='w-full h-auto rounded-xl'
                                 priority
                                 sizes="(max-width: 768px) 100vw,
-                                          (max-width: 1200px) 40vw,
-                                          40vw" />
-
+                                          (max-width: 1200px) 50vw,
+                                          50vw" />
                         </div>
                     </div>
+                    <Skills />
                     <Experience />
                     <Education />
-                    {/* <Skills /> */}
                 </Layout>
             </main>
         </>
