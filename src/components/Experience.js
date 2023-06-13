@@ -61,7 +61,7 @@ const Experience = () => {
                         work="I am actively involved in the development of a cutting-edge 3D reconstruction
                         pipeline, comprising camera drivers, recording tools, and advanced techniques for 
                         point cloud reconstruction, denoising, matching, and meshing. 
-                        Additionally, I am helping with the frontend development of the company's application portfolio." 
+                        Additionally, I am helping with the frontend development of the company&apos;s application portfolio." 
                     />
 
                     <Details
@@ -70,7 +70,7 @@ const Experience = () => {
                         companyLink="https://beamagine.com/"
                         time="May 2021 - May 2022"
                         address="Terrassa, Spain"
-                        work="As a Computer Vision Engineer at Beamagine's Perception Research Team, 
+                        work="As a Computer Vision Engineer at Beamagine&apos;s Perception Research Team, 
                         I played a key role in the development of cutting-edge solutions for pedestrian detection in point clouds,
                         and multimodal images. Additionally, contributed to the development of point cloud visualization and annotation
                         tools using Qt Creator and OpenGL."
@@ -82,7 +82,7 @@ const Experience = () => {
                         companyLink="https://www.itnow.es/"
                         time="Jul. 2019 - Aug. 2020"
                         address="Barcelona, Spain"
-                        work="During my time as a Junior Project Manager at ITnow's Backends and Cloud Support teams,
+                        work="During my time as a Junior Project Manager at ITnow&apos;s Backends and Cloud Support teams,
                         I contributed to the successful execution of various projects. I was part of the team responsible for key aspects
                         of the architecture and backend operations, including CPU and memory capacity planning, alert monitoring and continuity planning.
                         In the Cloud Support team, within an Agile squad, we provided technical support for migrating

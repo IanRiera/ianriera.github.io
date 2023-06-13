@@ -30,13 +30,13 @@ const about = () => {
                             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75
                             dark:text-light/75">Biography</h2>
                             <p className="font-medium">
-                                Hello world, I'm Ian. I am a Telecommunications engineer specialized in Computer Vision.  
+                                Hello world, I am Ian. I am a Telecommunications engineer specialized in Computer Vision.  
                             </p>
                             <p className="my-4 font-medium">
                                 I am currently working at <a href="https://coatingai.com/" className="underline hover:text-blue-800">CoatingAI AG</a>, a startup that aims to leverage the power of artificial intelligence
                                 to automate coating processes and boost efficiency.
                                 My main role includes developing software tools for computer vision based solutions,
-                                both as standalone applications and packages of the company's full software pipeline.
+                                both as standalone applications and packages of the company&apos;s full software pipeline.
                             </p>
                             <p className="my-4 font-medium">
                                 Lately, I have been helping with the development of a web application for the company's current flagship product, the Flightpath.
@@ -44,7 +44,7 @@ const about = () => {
                             <p className="font-medium">
                                 Whether it is for work or for fun, I love to explore new technologies and learn new skills.
                                 From data science to web development, I am always looking for new challenges to tackle. Currently, paying
-                                attention to the latest trends in AI, exploring the potential of these tools and how to apply them to real world problems. I guess it's all about
+                                attention to the latest trends in AI, exploring the potential of these tools and how to apply them to real world problems. I guess it&apos;s all about
                                 writing the right prompt!
 
                             </p>
