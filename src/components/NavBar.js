@@ -56,7 +56,7 @@ const NavBar = () => {
             className=' w-full font-medium flex items-center
             justify-between dark:text-light
             lg:px-16 md:px-12 sm:px-8
-            fixed top-0 left-0 bg-gray-100 py-4 px-8 z-50 md:text-sm'>
+            fixed top-0 left-0 bg-gray-100 py-4 px-8 z-50 md:text-sm dark:bg-dark'>
 
             <button className="flex-col justify-center items-center hidden lg:flex"
                 onClick={handleClick}>
