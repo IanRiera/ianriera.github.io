@@ -54,27 +54,32 @@ const Skills = () => {
         <div>
             <h2 className="font-bold text-8xl mt-64 w-full text-center
             dark:text-light md:text-6xl md:mt-32">Skills</h2>
-            <AnimatedColorBar title="Python" width={65} color="green" className="!bg-green-600"/>
-            <AnimatedColorBar title="C++" width={50} color="green" className="!bg-green-600" />
-            <AnimatedColorBar title="Matlab" width={45} color="green" className="!bg-green-600"/>
-            <AnimatedColorBar title="JavaScript" width={45} color="green" className="!bg-green-600"/>
+            <AnimatedColorBar title="Python" width={85} color="green" className="!bg-green-600"/>
+            <AnimatedColorBar title="C++" width={65} color="green" className="!bg-green-600" />
+            <AnimatedColorBar title="Matlab" width={55} color="green" className="!bg-green-600"/>
+            <AnimatedColorBar title="JavaScript" width={55} color="green" className="!bg-green-600"/>
             <hr className="border-2 border-solid"></hr>
-            <AnimatedColorBar title="Git" width={60} color="blue" className="!bg-blue-600"/>
-            <AnimatedColorBar title="Linux" width={60} color="blue" className="!bg-blue-600"/>
-            <AnimatedColorBar title="ROS" width={50} color="blue" className="!bg-blue-600" />
+            <AnimatedColorBar title="Git" width={70} color="blue" className="!bg-blue-600"/>
+            <AnimatedColorBar title="Linux" width={70} color="blue" className="!bg-blue-600"/>
+            <AnimatedColorBar title="ROS" width={60} color="blue" className="!bg-blue-600" />
             <hr className="border-2 border-solid"></hr>
-            <AnimatedColorBar title="Open3D" width={65} color="indigo" className="!bg-indigo-600"/>
-            <AnimatedColorBar title="OpenCV" width={60} color="indigo" className="!bg-indigo-600"/>
-            <AnimatedColorBar title="Tensorflow" width={40} color="indigo" className="!bg-indigo-600"/>
-            <AnimatedColorBar title="Pytorch" width={35} color="indigo" className="!bg-indigo-600"/>
+            <AnimatedColorBar title="Open3D" width={75} color="indigo" className="!bg-indigo-600"/>
+            <AnimatedColorBar title="OpenCV" width={70} color="indigo" className="!bg-indigo-600"/>
+            <AnimatedColorBar title="Tensorflow" width={50} color="indigo" className="!bg-indigo-600"/>
+            <AnimatedColorBar title="Pytorch" width={45} color="indigo" className="!bg-indigo-600"/>
             <hr className="border-2 border-solid"></hr>
-            <AnimatedColorBar title="Object Detection" width={65} color="purple" className="!bg-purple-600"/>
-            <AnimatedColorBar title="3D reconstruction" width={60} color="purple" className="!bg-purple-600"/>
-            <AnimatedColorBar title="Multi Target Tracking" width={55} color="purple" className="!bg-purple-600"/>
-            <AnimatedColorBar title="Sensor Fusion" width={50} color="purple" className="!bg-purple-600"/>
+            <AnimatedColorBar title="Object Detection" width={85} color="purple" className="!bg-purple-600"/>
+            <AnimatedColorBar title="3D reconstruction" width={70} color="purple" className="!bg-purple-600"/>
+            <AnimatedColorBar title="Multi Target Tracking" width={70} color="purple" className="!bg-purple-600"/>
+            <AnimatedColorBar title="Sensor Fusion" width={60} color="purple" className="!bg-purple-600"/>
             <hr className="border-2 border-solid"></hr>
-            <AnimatedColorBar title="Agile" width={70} color="yellow" className="!bg-yellow-400"/>
-            <AnimatedColorBar title="DevOps" width={55} color="yellow" className="!bg-yellow-400"/>
+            <AnimatedColorBar title="Agile" width={85} color="yellow" className="!bg-yellow-400"/>
+            <AnimatedColorBar title="DevOps" width={70} color="yellow" className="!bg-yellow-400"/>
+            <hr className="border-2 border-solid"></hr>
+            <AnimatedColorBar title="Spanish" width={100} color="orange" className="!bg-orange-400"/>
+            <AnimatedColorBar title="Catalan" width={100} color="orange" className="!bg-orange-400"/>
+            <AnimatedColorBar title="English" width={90} color="orange" className="!bg-orange-400"/>
+            <AnimatedColorBar title="Polish" width={40} color="orange" className="!bg-orange-400"/>
             <hr className="border-2 border-solid"></hr>
         </div>
     );

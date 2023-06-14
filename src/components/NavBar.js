@@ -79,7 +79,7 @@ const NavBar = () => {
                 <nav className="flex item-center justify-center flex-wrap">
                     <button
                         onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                        className={`w-6 ml-3 flex items-center justify-center rounded-full 
+                        className={`w-6 mr-3 flex items-center justify-center rounded-full 
             p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
                     >
                         {
@@ -92,9 +92,8 @@ const NavBar = () => {
                     <motion.a href='https://es.linkedin.com/in/ianrierasmolinska' target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
-                        className="w-6 mr-3">
+                        className="w-6 mx-3">
                         <LinkedInIcon />
-
                     </motion.a>
                     <motion.a href='https://github.com/IanRiera/IanRiera' target={"_blank"}
                         whileHover={{ y: -2 }}
@@ -105,7 +104,7 @@ const NavBar = () => {
                     <motion.a href='mailto:ian.riera.smolinska@gmail.com' target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
-                        className="w-6 mx-3">
+                        className="w-6 ml-3">
                         <GmailIcon />
                     </motion.a>
 
@@ -132,7 +131,7 @@ const NavBar = () => {
                         <nav className="flex item-center justify-center flex-wrap mt-2">
                             <button
                                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                                className={`w-6 ml-3 flex items-center justify-center rounded-full 
+                                className={`w-6 mr-3 flex items-center justify-center rounded-full 
             p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
                             >
                                 {
@@ -145,9 +144,8 @@ const NavBar = () => {
                             <motion.a href='https://es.linkedin.com/in/ianrierasmolinska' target={"_blank"}
                                 whileHover={{ y: -2 }}
                                 whileTap={{ scale: 0.9 }}
-                                className="w-6 mr-3 sm:mx-1">
+                                className="w-6 mx-3 sm:mx-1">
                                 <LinkedInIcon />
-
                             </motion.a>
                             <motion.a href='https://github.com/IanRiera/IanRiera' target={"_blank"}
                                 whileHover={{ y: -2 }}
@@ -158,7 +156,7 @@ const NavBar = () => {
                             <motion.a href='mailto:ian.riera.smolinska@gmail.com' target={"_blank"}
                                 whileHover={{ y: -2 }}
                                 whileTap={{ scale: 0.9 }}
-                                className="w-6 mx-3 sm:mx-1">
+                                className="w-6 ml-3 sm:mx-1">
                                 <GmailIcon />
                             </motion.a>
                         </nav>
