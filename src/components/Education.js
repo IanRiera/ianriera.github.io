@@ -55,18 +55,19 @@ const Education = () => {
                     <Details
                         type="M.Sc. In Computer Vision"
                         university="Universitat Autònoma de Barcelona — Computer Vision Center (CVC)"
-                        time="2016-2020"
+                        time="2020-2021"
                         address="Barcelona, Spain"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-Intelligence."
+                        info="Specialization that provides the foundations of Computer Vision, a technology within the Artificial Intelligence field,
+                        that acts as a fundamental component to perform smart tasks in systems such as assisting medical diagnosis and surgery,
+                        autonomous car driving, industry quality control, surveillance applications, or improving interfaces for multimedia data access."
                     />
                     <Details
                         type="M.Sc. In Telecommunication Engineering"
-                        university="Massachusetts Institute Of Technology (MIT)"
-                        time="2016-2020"
+                        university="La Salle - Universitat Ramon Llull (URL)"
+                        time="2017-2019"
                         address="Barcelona, Spain"
-                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-Intelligence."
+                        info="The master covered the design and communication systems network concepts, hardware and software developments (reaching prototype level),
+                        radiofrequency systems, technology project management and business creation."
                     />
                     <Details
                         type="B.Sc. In Telecommunication Engineering"
