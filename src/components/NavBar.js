@@ -77,6 +77,18 @@ const NavBar = () => {
                 </nav>
 
                 <nav className="flex item-center justify-center flex-wrap">
+                    <button
+                        onClick={() => setMode(mode === "light" ? "dark" : "light")}
+                        className={`w-6 ml-3 flex items-center justify-center rounded-full 
+            p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
+                    >
+                        {
+                            mode === "dark" ?
+                                <SunIcon className={"fill-dark"} />
+                                : <MoonIcon className={"fill-dark"} />
+                        }
+
+                    </button>
                     <motion.a href='https://es.linkedin.com/in/ianrierasmolinska' target={"_blank"}
                         whileHover={{ y: -2 }}
                         whileTap={{ scale: 0.9 }}
@@ -96,18 +108,6 @@ const NavBar = () => {
                         className="w-6 mx-3">
                         <GmailIcon />
                     </motion.a>
-                    <button
-                        onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                        className={`w-6 ml-3 flex items-center justify-center rounded-full 
-            p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
-                    >
-                        {
-                            mode === "dark" ?
-                                <SunIcon className={"fill-dark"} />
-                                : <MoonIcon className={"fill-dark"} />
-                        }
-
-                    </button>
 
 
                 </nav>
@@ -130,6 +130,18 @@ const NavBar = () => {
                         </nav>
 
                         <nav className="flex item-center justify-center flex-wrap mt-2">
+                            <button
+                                onClick={() => setMode(mode === "light" ? "dark" : "light")}
+                                className={`w-6 ml-3 flex items-center justify-center rounded-full 
+            p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
+                            >
+                                {
+                                    mode === "dark" ?
+                                        <SunIcon className={"fill-dark"} />
+                                        : <MoonIcon className={"fill-dark"} />
+                                }
+
+                            </button>
                             <motion.a href='https://es.linkedin.com/in/ianrierasmolinska' target={"_blank"}
                                 whileHover={{ y: -2 }}
                                 whileTap={{ scale: 0.9 }}
@@ -149,18 +161,6 @@ const NavBar = () => {
                                 className="w-6 mx-3 sm:mx-1">
                                 <GmailIcon />
                             </motion.a>
-                            <button
-                                onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                                className={`w-6 ml-3 flex items-center justify-center rounded-full 
-            p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
-                            >
-                                {
-                                    mode === "dark" ?
-                                        <SunIcon className={"fill-dark"} />
-                                        : <MoonIcon className={"fill-dark"} />
-                                }
-
-                            </button>
                         </nav>
                     </motion.div>
                     : null
