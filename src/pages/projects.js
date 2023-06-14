@@ -61,7 +61,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
 const Project = ({ title, type, img, summary, link, github }) => {
     return (
         <article
-            className="w-full flex flex-col items-center justify-center
+            className=" w-full flex flex-col items-center justify-center
         rounded-2xl border border-solid border-dark bg-light dark:bg-dark dark:border-light shadow-2xl
         p-6 relative xs:p-4">
             <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark
@@ -101,7 +101,7 @@ const projects = () => {
                 <meta name="description" content="Ian Riera personal website" />
             </Head>
             <TransitionEffect />
-            <main className="w-full mb-16 flex flex-col items-center justify-center
+            <main className="pt-12 w-full mb-16 flex flex-col items-center justify-center
             dark:text-light">
                 <Layout className="w-full mb-16 flex flex-col items-center justify-center">
                     <AnimatedText text="Unleash the Power of Computer Vision!" className="mb-16
